@@ -34,7 +34,7 @@ from autobahn.twisted.websocket import WebSocketClientProtocol, \
     WebSocketClientFactory, \
     connectWS
     
-base = 'ws://127.0.0.1:5050'
+base = 'ws://127.0.0.1'
 network_id = 'local'
 
 class WallflowerClientProtocol(WebSocketClientProtocol):

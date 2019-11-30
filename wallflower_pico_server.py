@@ -43,8 +43,8 @@ import sqlite3
 config = {
     'network-id': 'local',
     'enable_ws': False,
-    'http_port': 5000,
-    'ws_port': 5050,
+    'http_port': ,
+    'ws_port': ,
     'database': 'wallflower_db'
 }
 
